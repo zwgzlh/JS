@@ -15,3 +15,20 @@ let max = 999;
         }
         console.log(digit);
 
+﻿//задание 2
+let glasses  = {
+    name: “Оправа”,
+    price: 12000,
+    quantity: 1
+};
+let lenses = {
+    name: “Линзы”,
+    price: 5000,
+    quantity: 2
+};
+let basket = [glasses, lenses];
+let sum = 0;
+for ( i = 0; i < basket.length; i++ ) {
+let item = basket [i];
+sum += item.price * item.quantity;
+};
